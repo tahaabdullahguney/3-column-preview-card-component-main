@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ p,button{
+    font-family: 'Lexend Deca', sans-serif;
+ }
+
+
+ h1{
+    font-family: 'Big Shoulders Display', cursive;
+ }
+
+
+ main{
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+ }
+
+
+.card{
+    width: 900px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imgClass{
+    margin: 12px;
+}
+
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 12px;
+}
+
+.hClass{
+    font-size: 40px;
+}
+
+
+.sedan{
+    width: 300px;
+    height: 450px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 30px;
+}
+
+
+.sdnPClass{
+    text-align: left;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 12px;
+    padding-right: 20px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+.sdnBtnClass{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    margin-top: 60px;
+    margin-left: 12px;
+    padding: 12px;
+}
+
+
+.suv{
+    width: 300px;
+    height: 450px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+
+
+.suvPClass{
+    text-align: left;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-right: 30px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+.suvBtnClass{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);;
+    margin-top: 60px;
+    margin-left: 12px;
+    padding: 12px;
+}
+
+
+.luxury{
+    width: 300px;
+    height: 450px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+}
+
+
+.lxryPClass{
+    text-align: left;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-right: 20px;
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+
+
+.lxryBtnClass{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    margin-top: 60px;
+    margin-left: 12px;
+    padding: 12px;
+}
+ 
+.sdnBtnClass:hover{
+    background-color:hsl(31, 77%, 52%);
+    border: 3px solid white;
+    color: white;
+}
+
+.suvBtnClass:hover{
+    background-color:hsl(184, 100%, 22%);
+    border: 3px solid white;
+    color: white;
+}
+
+.lxryBtnClass:hover{
+    background-color:hsl(179, 100%, 13%);
+    border: 3px solid white;
+    color: white;
+}
